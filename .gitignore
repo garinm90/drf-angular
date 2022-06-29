@@ -450,43 +450,42 @@ dist
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+angular/frontend/dist
+angular/frontend/tmp
+angular/frontend/out-tsc
+angular/frontend/bazel-out
+# angular/frontend/
+# angular/frontend/# Node
+angular/frontend/node_modules
+angular/frontend/npm-debug.log
+angular/frontend/yarn-error.log
+# angular/frontend/
+# angular/frontend/# IDEs and editors
+angular/frontend/.idea/
+angular/frontend/.project
+angular/frontend/.classpath
+angular/frontend/.c9/
+angular/frontend/*.launch
+angular/frontend/.settings/
+angular/frontend/*.sublime-workspace
+# angular/frontend/
+# angular/frontend/# Visual Studio Code
+angular/frontend/.vscode/*
+angular/frontend/!.vscode/settings.json
+angular/frontend/!.vscode/tasks.json
+angular/frontend/!.vscode/launch.json
+angular/frontend/!.vscode/extensions.json
+angular/frontend/.history/*
+# angular/frontend/
+# angular/frontend/# Miscellaneous
+angular/frontend/.angular/cache
+angular/frontend/.sass-cache/
+angular/frontend/connect.lock
+angular/frontend/coverage
+angular/frontend/libpeerconnection.log
+angular/frontend/testem.log
+angular/frontend/typings
 
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
-
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-
-# System files
-.DS_Store
-Thumbs.db
-angular/frontend/.vs*
+# angular/frontend/# System files
+angular/frontend/.DS_Store
+angular/frontend/Thumbs.db
